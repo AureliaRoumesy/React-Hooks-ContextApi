@@ -7,9 +7,8 @@ function ComponentB() {
 
   return (
     <div className="cp3">
-      <p><b>Component B</b></p>
-      <p>Counter is {count}</p>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
+      <p><b>Component B</b><br/>Counter is {count}</p>
+      <button onClick={() => setCount(count -1)}>Decrement</button>
     </div>
   )
 }

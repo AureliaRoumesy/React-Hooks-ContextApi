@@ -13,7 +13,7 @@ function CountContext() {
       <CountCtx.Provider value={[count, setCount]}>
         {/*  Call CountCtx provider and link 'count' hook and 'setCount', that replace '0' value and '() => {}' function*/}
         {/* if click on this button increment 'count' variable and automaticly update CountCtx */}
-        <p>Component where i created the context 'CountCtx'</p>
+        <p>Component where i created the context 'CountCtx'<br/>Counter is {count}</p>
         <button onClick={() => setCount(count + 1)}>Increment</button>
         <ComponentA/>
       </CountCtx.Provider>

@@ -10,13 +10,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2>Hooks</h2>
+          <p className="h2">Hooks</p>
+          <p className="h4">More information about hooks</p>
+          <a href="https://reactjs.org/docs/hooks-intro.html">https://reactjs.org/docs/hooks-intro.html</a>
           <CpAHooks/>
-          <h2>Context API</h2>
+          <p className="h2">Context API</p>
+          <p className="h4">More information about context api</p>
+          <a href="https://reactjs.org/docs/context.html">https://reactjs.org/docs/context.html</a>
           <CpContext/>
-          <h2>Reducer</h2>
-          <h4>Soon ..</h4>
-
+          <p className="h2">Reducer</p>
+          <p className="h4">Soon ..</p>
+          <a href="https://reactjs.org/docs/hooks-reference.html#usereducer">https://reactjs.org/docs/hooks-reference.html#usereducer</a>
         </header>
       </div>
     );

@@ -4,12 +4,12 @@ import ComponentB from './ComponentB';
 
 function ComponentA() {
   // Plug the context in 'cout' variable and in 'setCount'
-  const count = useContext(CountCtx);
+  const [count, setCount] = useContext(CountCtx);
 
   return (
     <div className="cp2">
-      <p><b>Component A</b></p>
-      <p>Counter is {count}</p>
+      <p><b>Component A</b><br/>Counter is {count}</p>
+      <button onClick={() => setCount(0)}>Reset</button>
       <ComponentB/>
     </div>
   )
