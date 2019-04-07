@@ -2,7 +2,7 @@ import React, { useState, createContext } from 'react';
 import ComponentA from './ComponentA';
 
 // Create context set default value 0 and void function and export it
-export const CountCtx = createContext(0, () => {});
+export const CountCtx = createContext(0);
 
 function CountContext() {
   // create normal hooks
