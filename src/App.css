@@ -20,9 +20,9 @@
 }
 
 button {
-  width: 80px;
-  height: 30px;
   font-size: 14px;
+  padding: 10px;
+
   margin-bottom: 10px;
 }
 

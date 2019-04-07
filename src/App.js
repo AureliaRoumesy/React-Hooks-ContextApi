@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import CpAHooks from './Components/Hooks/ComponentA';
-import CpAContext from './Components/ContextApi/ComponentA';
+import CpContext from './Components/ContextApi/CountContext';
 
 import './App.css';
 
@@ -10,10 +10,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2>React - Hooks</h2>
+          <h2>Hooks</h2>
           <CpAHooks/>
-          <h2>React - Context API</h2>
-          <CpAContext/>
+          <h2>Context API</h2>
+          <CpContext/>
+          <h2>Reducer</h2>
+          <h4>Soon ..</h4>
+
         </header>
       </div>
     );
